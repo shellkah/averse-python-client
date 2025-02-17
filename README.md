@@ -19,6 +19,8 @@ pip install averse-python-client
 ## Usage
 
 ```python
+from averse import AverseClient
+
 if __name__ == "__main__":
     with AverseClient(host="localhost", port=50051) as cache:
         cache.set("example_key", "example_value")
