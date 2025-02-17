@@ -1,6 +1,6 @@
 # Averse Python Client
 
-**Averse Python Client** is a Python library that provides a simple client for the Averse cache service via gRPC.
+**Averse Python Client** is a Python library that provides a simple client for the [Averse](https://github.com/shellkah/averse) cache service via gRPC.
 
 ## Features
 
