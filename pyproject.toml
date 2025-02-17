@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "averse-python-client"
+version = "0.1.0"
+description = ""
+authors = ["Shellkah <shellkah@proton.me>"]
+readme = "README.md"
+
+[[tool.poetry.packages]]
+include = "averse"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+protobuf = "^5.29.3"
+grpcio = "^1.70.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
